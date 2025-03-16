@@ -1,0 +1,2 @@
+model from https://github.com/ayushgaud/gazebo_cars/blob/master/models/car_012/meshes/car_012.dae
+add this in terminal: export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/Users/sonyabudilova/Documents/NaUKMA/4_year/диплом/moving_robot_tutorial/gazebo_models_worlds_collection/models:/Users/sonyabudilova/Documents/NaUKMA/4_year/диплом/moving_robot_tutorial/cars/models
