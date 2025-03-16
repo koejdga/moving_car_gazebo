@@ -1,0 +1,19 @@
+1. write this command in terminal
+export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/Users/sonyabudilova/Documents/NaUKMA/4_year/диплом/moving_robot_tutorial/gazebo_models_worlds_collection/models
+
+2. take agriculture.world
+3. add model vehicle_blue and plugins for button presses underneath
+4. add plugins Physics, UserCommands and SceneBroadcaster under the physics tag
+5. run gz sim -s agriculture.world
+6. run gz sim -g
+7. add Key Publisher in upper right corner
+8. press play to run simulation
+9. press r for a car to run and s for a car to stop
+
+alternatively, use command
+gz topic -t "/cmd_vel" -m gz.msgs.Twist -p "linear: {x: 2}, angular: {z: 0.4}"
+to run a car
+
+and command
+gz topic -t "/cmd_vel" -m gz.msgs.Twist -p "linear: {x: 0}, angular: {z: 0}"
+to stop a car
