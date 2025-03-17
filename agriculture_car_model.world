@@ -58,13 +58,6 @@
         <pose frame=''>0 0 10 0 -0 0</pose>
       </light>
     </state>
-    <gui fullscreen='0'>
-      <camera name='user_camera'>
-        <pose frame=''>218.674 28.4041 66.9437 0 0.275643 3.14159</pose>
-        <view_controller>orbit</view_controller>
-        <projection_type>perspective</projection_type>
-      </camera>
-    </gui>
     <gravity>0 0 -9.8</gravity>
     <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
     <atmosphere type='adiabatic'/>
@@ -73,6 +66,8 @@
     </audio>
     <wind/>
     <model name='agriculture_geom'>
+      <pose relative_to='world' frame=''>-40 0 0 0 0 0</pose>
+
       <link name='agriculture_world_link'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <inertial>
@@ -123,11 +118,10 @@
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>0 0 0 0 -0 0</pose>
     </model>
 
     <model name='vehicle_blue' canonical_link='chassis'>
-      <pose relative_to='world'>40 0 0 0 0 0</pose>      <!--the pose is relative to the world by default-->
+      <pose relative_to='world'>-0,4821 -2,9831 0,2416 0,0112 0,0373 -1,6178</pose>      <!--the pose is relative to the world by default-->
 
       <link name='chassis'>
         <!-- x was 0.5 -->
