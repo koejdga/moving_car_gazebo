@@ -23,3 +23,7 @@ This setup is designed to test UAV tracking algorithms, where the UAV tracks the
 
 - car_012 - https://github.com/ayushgaud/gazebo_cars
 - cpr_agriculture - https://github.com/leonhartyao/gazebo_models_worlds_collection
+
+## Demontration
+
+![Gazebo world illustration](gazebo_world_illustation.png)
