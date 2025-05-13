@@ -110,7 +110,7 @@
 
     <include>
       <uri>model://iris_with_gimbal</uri>
-      <pose degrees="true">0 0 0.195 0 0 90</pose>
+      <pose degrees="true">-4.5 0 0.195 0 0 90</pose>
     </include>
 
     <model name='vehicle_blue' canonical_link='chassis'>
